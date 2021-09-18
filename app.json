@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "AI動物顔診断",
+    "slug": "Faceanimal",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+
+    "ios": {
+      "bundleIdentifier": "com.hansaitests.faceanimal",
+      "buildNumber": "1.0.3",
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1154234843774755~3836683630"
+      }
+    },
+    "android": {
+
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.hansaitests.faceanimal",
+      "versionCode": 4,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1154234843774755~3836683630"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE"
+      ]
+
+
+    },
+    "web":{
+      "favicon":"./assets/favicon.png"
+    },
+    "packagerOpts":{
+      "port":51442
+    }
+
+  }
+}
